@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Steam Pass Seu Acervo de Jogos</title>
+    <title>STEAM</title>
     <style>
         :root {
             --primary: #6c5ce7;
@@ -218,17 +218,7 @@
 
         /* Games Page Styles */
         .games-container {
-            padding: 40px 0;
-        }
-
-        .page-title {
-            font-size: 2.5rem;
-            text-align: center;
-            margin-bottom: 30px;
-            background: linear-gradient(90deg, var(--primary), var(--accent));
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
+            padding: 3px 0;
         }
 
         .search-bar {
@@ -634,17 +624,17 @@
         /* Footer Styles */
         footer {
             background: rgba(0, 0, 0, 0.7);
-            padding: 30px 0;
+            margin-top:30px;
+            padding:69px;
             text-align: center;
             border-top: 2px solid rgba(108, 92, 231, 0.3);
-            margin-top: 40px;
         }
 
         .footer-content {
             display: flex;
             flex-direction: column;
             align-items: center;
-            gap: 20px;
+            gap:4px;
         }
 
         /* Responsive Styles */
@@ -675,6 +665,7 @@
                 min-width: 35px;
                 font-size: 0.9rem;
             }
+            
         }
 
         @media (max-width: 480px) {
@@ -734,12 +725,10 @@
         <div class="container">
             <div class="header-content">
                 <div class="logo">
-                    <span class="logo-icon">🎮</span>
                     <h1>SteamPass</h1>
                 </div>
                 <nav>
                     <ul>
-                        <li><a href="#" id="nav-home">Início</a></li>
                         <li id="user-nav-item" class="hidden">
                             <div class="user-info">
                                 <span id="user-email"></span>
@@ -780,8 +769,11 @@
         <!-- Games Page -->
         <section id="games-page" class="container hidden">
             <div class="games-container">
-                <h2 class="page-title">Nossa Coleção de Jogos</h2>
-                
+
+                <div style="text-align: center;">
+                <img src="https://i.ibb.co/QvgTFZZt/Airbrush-IMAGE-ENHANCER-1763077751034-1763077751035.jpg"style="width:1160px; height:240px; border-radius: 15px; border: 2px solid var(--primary);"/>
+                </div>
+        
                 <!-- Admin Panel (only visible for admin) -->
                 <div id="admin-panel" class="admin-panel hidden">
                     <h3 class="admin-title" id="admin-panel-title">Adicionar Novo Jogo</h3>
@@ -860,9 +852,10 @@
             <div class="footer-content">
                 <div class="logo">
                     <span class="logo-icon">🎮</span>
-                    <h2>SteamPass</h2>
+                    <h2>LUANDRIVER</h2>
+                    <span class="logo-icon">🎮</span>
                 </div>
-                <p>Seu acervo pessoal de jogos e chaves</p>
+                <p>acervo pessoal de jogos</p>
                 <p>&copy; 2025 SteamPass. Todos os direitos reservados.</p>
             </div>
         </div>
@@ -932,7 +925,6 @@
         const addGameForm = document.getElementById('add-game-form');
         const searchInput = document.getElementById('search-input');
         const searchBtn = document.getElementById('search-btn');
-        const navHome = document.getElementById('nav-home');
         const navLogin = document.getElementById('nav-login');
         const logoutBtn = document.getElementById('logout-btn');
         const userNavItem = document.getElementById('user-nav-item');
@@ -1601,3 +1593,4 @@
 </body>
 
 </html>
+
