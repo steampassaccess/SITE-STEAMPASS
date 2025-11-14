@@ -224,6 +224,7 @@
         .search-bar {
             display: flex;
             margin-bottom: 30px;
+            margin-top:40px;
             gap: 10px;
         }
 
@@ -768,7 +769,7 @@
 
         <!-- Games Page -->
         <section id="games-page" class="container hidden">
-            <div class="games-container">  
+            <div class="games-container">
                 <!-- Admin Panel (only visible for admin) -->
                 <div id="admin-panel" class="admin-panel hidden">
                     <h3 class="admin-title" id="admin-panel-title">Adicionar Novo Jogo</h3>
@@ -808,7 +809,7 @@
                 
                 <!-- Recent Games Section -->
                 <div class="recent-section">
-                    <h3 class="section-title">🆕 Jogos Recentes</h3>
+                    <h3 class="section-title">🎮 JOGOS RECENTE</h3>
                     <div class="carousel-container">
                         <button class="carousel-btn prev">❮</button>
                         <div class="carousel" id="recent-games-carousel">
@@ -823,7 +824,7 @@
                 
                 <!-- All Games Section -->
                 <div class="all-games-section">
-                    <h3 class="section-title">🎮 Todos os Jogos</h3>
+                    <h3 class="section-title">🎮 TODOS OS JOGOS</h3>
                     <div class="games-count" id="games-count">
                         <!-- Game count will be dynamically inserted here -->
                     </div>
@@ -1394,7 +1395,7 @@
                     currentCarouselPage = 0;
                 }
                 updateCarousel();
-            }, 2000); // 2 seconds
+            }, 3000); // 3 seconds
         }
 
         // Reset carousel interval
@@ -1588,5 +1589,6 @@
 </body>
 
 </html>
+
 
 
